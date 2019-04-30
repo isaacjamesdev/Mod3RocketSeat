@@ -6,7 +6,7 @@ import { View, Text, StyleSheet } from "react-native";
 
 const welcome = () => (
   <View style={styles.container}>
-    <Text style={styles.welcome}>Welcome to React Native!</Text>
+    <Text style={styles.welcome}>UE ME FEELL james Native!</Text>
   </View>
 );
 
