@@ -12,7 +12,7 @@ export default class welcome extends Component {
     return (
       <Container>
         <Text>Welcome</Text>
-        <Button title="Go" onPress={this.handleGoPress} />
+        <Button title="Go!" onPress={this.handleGoPress} />
       </Container>
     );
   }
