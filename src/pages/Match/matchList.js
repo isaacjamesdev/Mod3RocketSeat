@@ -17,12 +17,10 @@ import {
 
 class Matchs extends Component {
   render() {
-    console.tron.log(this.props);
-    const { data } = this.props.matchs;
     return (
       <Container>
         <MatchsList
-          data={data}
+          data={this.props.matchs.data}
           keyExtractor={match => String(match.id)}
           renderItem={({ item: match }) => (
             <Match onPress={() => ({})}>

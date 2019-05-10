@@ -18,7 +18,7 @@ const Routes = createAppContainer(
           Profile,
           Swipe: createStackNavigator(
             {
-              Swipe: { screen: Swipe }
+              Swipe
             },
             {
               navigationOptions: {
